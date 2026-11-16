@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Superhéroes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Superhéroes</h1>
+
+        <input type="text" id="buscador" placeholder="Buscá un personaje">
+        <button id="buscarPersonaje">Buscar</button>
+
+        <select id="filtroEditorial">
+            <option value="">Todas las editoriales</option>
+            <option value="Marvel Comics">Marvel Comics</option>
+            <option value="DC Comics">DC Comics</option>
+        </select>
+
+        <select id="filtroAlineacion">
+            <option value="">Todas las alineaciones</option>
+            <option value="good">good</option>
+            <option value="bad">bad</option>
+            <option value="neutral">neutral</option>
+        </select>
+
+        <select id="filtroGenero">
+            <option value="">Todos los géneros</option>
+            <option value="Male">Masculino</option>
+            <option value="Female">Femenino</option>
+        </select>
+    </header>
+//Ivo es re rara esta Api, está Harry Potter y Goku. No puedo poner todas las editoriales así que puse algunas solo.
+    <main class="personaje-container" id="personajeContainer">
+        <!-- Contenido dinámico -->
+    </main>
+
+    <script src="./main.js" defer></script>
+
+</body>
+</html>
